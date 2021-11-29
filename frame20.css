@@ -1,0 +1,335 @@
+@font-face {
+    font-family: texgyreadventor__bold;
+    src: url('./Fonts/tex-gyre-adventor/texgyreadventor-bold.otf');
+}
+
+@font-face {
+    font-family: texgyreadventor__regular;
+    src: url('./Fonts/tex-gyre-adventor/texgyreadventor-regular.otf');
+}
+
+@font-face {
+    font-family: KeepCalm__Medium;
+    src: url('./Fonts/KeepCalm-Medium.ttf');
+}
+
+@font-face {
+    font-family: Montserrat__Bold;
+    src: url('./Fonts/Montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: CooperHewitt__Medium;
+    src: url('./Fonts/cooper-hewitt/CooperHewitt-Medium.otf');
+}
+
+@font-face {
+    font-family: Dosis__Bold;
+    src: url('./Fonts/Dosis/static/Dosis-Bold.ttf');
+}
+
+@font-face {
+    font-family: Dosis__Medium;
+    src: url('./Fonts/Dosis/static/Dosis-Medium.ttf');
+}
+
+@font-face {
+    font-family: Dosis__Regular;
+    src: url('./Fonts/Dosis/static/Dosis-Regular.ttf');
+}
+
+
+/* aside col starts here */
+.row__aside {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 3px solid rgba(255, 184, 90, 1);
+    background-color: rgba(250, 245, 241, 1);
+    border-radius: 20px;
+    padding: 10px;
+    overflow: hidden;
+    background-image: url('https://prod.prowebventures.com/BonusMate/Templates/images/card2Bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.column__aside {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+}
+
+
+.bl__aside__col {
+    height: auto;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    position: relative;
+}
+
+.bl__aside__col__right {
+    height: auto;
+    padding: 0px 30px;
+}
+
+.dbl__aside__col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.crt__text {
+    text-align: center;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+
+
+.dbl__aside__col .img__prt {
+    width: 100%;
+    margin-top: 3rem;
+    position: relative;
+}
+
+.dbl__aside__col .img__prt2 {
+    width: 60%;
+    top: -178px;
+    border: 7px solid rgba(255, 255, 255, 1);
+    padding: 10px;
+    position: relative;
+}
+
+
+.bl__aside__col .sect_br {
+    position: absolute;
+    top: 100px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.bl__aside__col .sect_br img {
+    width: 20px;
+}
+
+
+.column__aside .img__text {
+    border-bottom: none;
+    padding: 5px 10px;
+    color: rgba(53, 46, 115, 1);
+    font-family: 'Montserrat__SemiBold';
+    padding: 0px 0px;
+    font-size: 14px;
+}
+
+.bl__aside__col .insert__pos {
+    position: absolute;
+    width: 75%;
+    top: 30px;
+    left: 27px;
+    padding: 12px;
+}
+
+.flt {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.flt button {
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(248, 114, 91, 1);
+    border-radius: 12px;
+    padding: 15px 40px;
+    font-size: 22px;
+    font-family: 'Montserrat__Bold';
+    transition: .3s ease-in-out;
+}
+
+.flt button:hover {
+    transform: translateY(-2px);
+    transition: .3s ease-in-out;
+    background: linear-gradient(93.05deg, #F37422 5.74%, #F7A141 49.6%, #E76899 99.2%);
+}
+
+.bl__aside__col .border__img {
+    position: absolute;
+    width: 80%;
+    left: 21px;
+    top: 13px;
+    padding: 11px;
+}
+
+.scroll {
+    height: 262px;
+    overflow-y: auto;
+}
+
+/* width */
+.scroll::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px grey;
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 2px;
+}
+
+/* Handle */
+.scroll::-webkit-scrollbar-thumb {
+    background: rgba(248, 114, 91, 1);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.scroll::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+
+.bl__aside__col__right h3 {
+    font-size: 40px;
+    color: rgba(0, 8, 54, 1);
+    font-family: 'Dosis__Bold';
+}
+
+.bl__aside__col__right span {
+    border-bottom: 1.2px dashed rgba(138, 55, 115, 0.6);
+    padding-bottom: 8px;
+}
+
+.bl__aside__col__right p {
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Dosis__Regular';
+    font-size: 19px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .bl__aside__col__right p br {
+        display: none;
+    }
+
+    .bl__aside__col__right h3 {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+
+    .bl__aside__col__right p {
+        font-size: 12px;
+    }
+
+    .bl__aside__col__right h3 {
+        font-size: 20px;
+    }
+
+    .bl__aside__col span img {
+        width: 10px;
+        transform: translate(-12px, -26px);
+    }
+
+    .bl__aside__col span {
+        top: -23px;
+        left: 1px;
+    }
+
+
+    .bl__aside__col .insert__pos {
+        top: -8px;
+        left: -6px;
+    }
+
+    .bl__aside__col .border__img {
+        left: -11px;
+        top: -18px;
+    }
+
+    .dbl__aside__col .img__prt2 {
+        top: -119px;
+    }
+
+    .bl__aside__col .sect_br {
+        display: none;
+    }
+    .flt button {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 538px) {
+    .bl__aside__col .insert__pos {
+        /* margin-top: -8.6rem; */
+    }
+
+    .bl__aside__col__right p {
+        font-size: 12px;
+    }
+
+    .bl__aside__col__right h3 {
+        font-size: 12px;
+    }
+
+    .bl__aside__col__right {
+        padding: 0px 0px 0px 10px;
+    }
+
+    .bl__aside__col .btn__fl button {
+        padding: 10px;
+    }
+
+    .bl__aside__col .border__img {
+        left: -22px;
+        top: -31px;
+    }
+
+    .column__aside .img__text {
+        font-size: 7px;
+    }
+
+    .bl__aside__col .insert__pos {
+        top: -26px;
+        left: -18px;
+    }
+
+    .flt button {
+        font-size: 10px;
+        padding: 10px 20px;
+    }
+
+    .dbl__aside__col .img__prt2 {
+        top: -75px;
+
+    }
+
+}
